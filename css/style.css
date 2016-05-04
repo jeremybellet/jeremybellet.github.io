@@ -15,7 +15,7 @@ a:hover {
 }
 
 html {
-	background: url(../images/22_Mr_Bill_1900.jpg) #141414 no-repeat center center fixed;
+	background: url(../images/22_Mr_Bill_1900.jpg) #141414 no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
