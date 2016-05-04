@@ -13,15 +13,17 @@ a {
 a:hover {
 	color: #A0D743;
 }
-body {
-	margin: 0;
-	background: url(../images/22_Mr_Bill_1900.jpg) #141414 no-repeat;
+
+html {
+	background: url(../images/22_Mr_Bill_1900.jpg) #141414 no-repeat center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
   	min-height: 400px;
-
+}
+body {
+	margin: 0;
 }
 header {
 	background: #282828;
