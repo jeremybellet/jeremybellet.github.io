@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Montserrat_regular";
+  src: url(../font/Montserrat-Regular.ttf);}
+@font-face {
+  font-family: "Montserrat_bold";
+  src: url(../font/Montserrat-Bold.ttf);}
+
+a {
+	text-decoration: none;
+	transition: all .5s;
+	color: #D1D1D1;
+}
+a:hover {
+	color: #A0D743;
+}
+body {
+	margin: 0;
+	background: url(../images/22_Mr_Bill_1900.jpg) #141414 no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  	min-height: 400px;
+
+}
+header {
+	background: #282828;
+	height: 20px;
+	color: #9E9E9E;
+	font-size: .9em;
+	text-align: right;
+	padding: 5px 15px;
+	font-family: "Montserrat_regular";
+}
+.construct {
+	height: 100%;
+	margin-top: 3em;
+	text-align: center;
+	color: #A0D743;
+	font-family: "Montserrat_regular";
+}
+
+.vignets {
+    animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 5s; /* Safari et Chrome */
+    -o-animation: fadein 5s; /* Opera */
+}
+@keyframes fadein {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-moz-keyframes fadein {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-webkit-keyframes fadein {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-o-keyframes fadein {
+    from {opacity:0;}
+    to {opacity: 1;}
+}
+.blink {
+  animation: blink 1.5s step-start 0s infinite;
+  -webkit-animation: blink 1.5s step-start 0s infinite;
+}
+@keyframes blink {
+  50% {opacity: 0.0;}
+}
+@-webkit-keyframes blink {
+  50% {opacity: 0.0;}
+}
