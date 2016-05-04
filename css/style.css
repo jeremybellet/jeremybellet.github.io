@@ -20,7 +20,7 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  	/*min-height: 400px;*/
+  	min-height: 350px;
 }
 body {
 	margin: 0;
