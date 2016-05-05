@@ -13,15 +13,17 @@ a {
 a:hover {
 	color: #A0D743;
 }
-body {
-	margin: 0;
+
+html {
 	background: url(../images/22_Mr_Bill_1900.jpg) #141414 no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  	min-height: 400px;
-
+  	min-height: 350px;
+}
+body {
+	margin: 0;
 }
 header {
 	background: #282828;
@@ -34,7 +36,7 @@ header {
 }
 .construct {
 	height: 100%;
-	margin-top: 3em;
+	margin-top: 2.5em;
 	text-align: center;
 	color: #A0D743;
 	font-family: "Montserrat_regular";
